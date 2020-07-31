@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.hokorizero</groupId>
-    <artifactId>testplugin</artifactId>
+    <artifactId>MessageRepeat</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Testplugin</name>
+    <name>MessageRepeat</name>
 
     <properties>
         <java.version>1.8</java.version>

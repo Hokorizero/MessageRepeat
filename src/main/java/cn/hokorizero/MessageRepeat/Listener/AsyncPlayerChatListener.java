@@ -17,7 +17,7 @@ public class AsyncPlayerChatListener implements Listener {
             list.forEach(m -> {
                 if (e.getMessage().equalsIgnoreCase(m)) {
                     Bukkit.getScheduler().runTaskLater(MessageRepeat.instance, () -> {
-                        Bukkit.broadcastMessage("§2" + MessageRepeat.getInstance().getConfig().getString("message." + m));
+                        Bukkit.broadcastMessage("§"+MessageRepeat.getInstance().getConfig().getString("color") + MessageRepeat.getInstance().getConfig().getString("message." + m));
                     }, 20L);
                 }
             });
