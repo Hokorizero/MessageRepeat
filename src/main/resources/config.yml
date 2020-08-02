@@ -1,4 +1,14 @@
-config: true
-color: 1
-message:
-  啊这: 这啊
+config:
+  repeater:
+    config: false
+    # 是否开启复读功能
+  color: a
+  # 改变本插件的提示回复颜色
+  messagerepeat:
+    config: true
+    # 是否开启关键词回复的功能
+    message:
+      #触发回复关键词 回复文本
+      '啊这': '这啊'
+
+
