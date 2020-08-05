@@ -2,13 +2,17 @@ config:
   repeater:
     config: false
     # 是否开启复读功能
+    # If true, the repeater will be turned on
   color: a
   # 改变本插件的提示回复颜色
+  # Modify the color of texts of the repeater
   messagerepeat:
     config: true
     # 是否开启关键词回复的功能
+    # If true, the feature of repeating specific key word(s) will be turned on
     message:
-      #触发回复关键词 回复文本
+      # 格式：'触发回复关键词': '回复文本'
+      # Format: 'Key word(s)': 'Repetition text'
       '啊这': '这啊'
 
 
