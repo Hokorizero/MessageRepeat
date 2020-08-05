@@ -2,7 +2,7 @@ name: Testplugin
 version: 1.0
 main: cn.hokorizero.MessageRepeat.MessageRepeat
 api-version: 1.16
-authors: [hokorizero]
+authors: [Hokorizero,WuzgXY]
 commands:
   msrepeat:
     description: '一个可以回复你所说的话的插件'
